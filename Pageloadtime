@@ -1,0 +1,6 @@
+<script type="text/javascript">
+var d = new Date() ;  var stT  = d.getTime() ;      
+window.onload=function () { 
+var x = new Date() ; var edT  = x.getTime() ;   
+var  prnt = edT - stT ; console.log( 'Page load time := ' + prnt  ) ; }
+</script>
